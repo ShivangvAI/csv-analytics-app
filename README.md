@@ -1,10 +1,10 @@
 # CSV-analytics-app
 CSV Analytics Dashboard built with Streamlit
-# 📊 Memory-Safe Large Dataset Analyzer
+# Memory-Safe Large Dataset Analyzer
 
 A high-performance, memory-efficient data analysis dashboard built with **Streamlit**, **Pandas**, and **Matplotlib**. This application is engineered to handle massive CSV files (up to 1 GB) smoothly on standard consumer hardware without running out of RAM or crashing the server.
 
-## ✨ Features
+## Features
 
 - **Chunked Data Processing:** Utilizes specialized Pandas stream chunking (`chunksize=100,000`) to process massive data footprints in low-RAM environments.
 - **Instant Data Previews:** Safely reads and displays the top rows of a dataset instantly without parsing the entire file into memory first.
@@ -12,14 +12,14 @@ A high-performance, memory-efficient data analysis dashboard built with **Stream
 - **Dynamic Subject Averages Chart:** Identifies numerical metrics (like Math, English, etc.) and visually scales performance averages.
 - **Student Performance Distribution:** Computes row-wise student averages on the fly and groups them into an interactive distribution histogram.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3**
 - **Streamlit** (Web Dashboard Framework)
 - **Pandas** (Memory-Optimized Data Processing)
 - **Matplotlib / NumPy** (Lightweight Aggregated Visualizations)
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Install Dependencies:**
    ```bash
